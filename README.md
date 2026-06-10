@@ -1,16 +1,10 @@
-## Hi there 👋
-
-<!--
-**evazy-0/evazy-0** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Audio - to - Visual Interactive Canvas
+Developed by Ziyi (Eva) Wang
+---
+## Project Overciew
+This project is an interactive system designed to bridge the gap between auditory input and visual output. It serves as a real-time "canvas" that dynamically transforms musical structures (chords/frequencies) into visual expressions.
+## Technical Stack
+Language: C++
+Focus： High-performance data processing, real-time mapping, and modular architecture.
+## Author
+Ziyi (Eva) Wang
