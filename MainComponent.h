@@ -22,8 +22,6 @@ public:
     void resized() override;
 
     void timerCallback() override;
-    bool keyPressed(const juce::KeyPress& key) override;
-
     void evaluateChord(const std::vector<int>& noteNumbers);
 
     static constexpr int fftOrder = 11;
