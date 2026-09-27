@@ -168,28 +168,6 @@ void MainComponent::releaseResources()
     // free audio resources
 }
 
-bool MainComponent::keyPressed(const juce::KeyPress& key)
-{
-    
-    char c = key.getTextCharacter();
-
-    // manual switch major(M) or minor(N)
-    if (c == 'm' || c == 'M')
-    {
-        isMajorMode = true;
-        currentModeCode = "MANUAL: MAJOR (HAPPY)";
-        return true;
-    }
-    else if (c == 'n' || c == 'N')
-    {
-        isMajorMode = false;
-        currentModeCode = "MANUAL: MINOR (SOMBER)";
-        return true;
-    }
-    return false;
-}
-
-
 void MainComponent::timerCallback()
 {
     // smoother animation transitions
@@ -203,7 +181,6 @@ void MainComponent::resized()
 {
 
 }
-
 
 void MainComponent::paint(juce::Graphics& g)
 {
